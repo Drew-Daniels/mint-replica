@@ -68,6 +68,12 @@ button {
 	padding: 5px;
 }
 
+button > img,
+button > span {
+	vertical-align: middle;
+	color: #fff;
+}
+
 /* unvisited */
 a:link {
 	color: inherit;
@@ -172,5 +178,16 @@ ul.horizontal-list li {
 
 #submit-button {
 	padding: 5px 100px;
+}
+
+#privacy-settings-container {
+	background-color: #fff;
+	height: 50px;
+	display: flex;
+	align-items: center;
+}
+
+#privacy-settings-container span {
+
 }
 
