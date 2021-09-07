@@ -53,16 +53,6 @@ table {
 	color: #7f8081;
 }
 
-#account-help-container {
-	display: flex;
-	align-items: center;
-	justify-content: flex-end;
-}
-
-#account-help-container span {
-	margin-right: 10px;
-}
-
 body {
 	background-color: #eceef1;
 }
@@ -104,6 +94,7 @@ ul {
 
 p {
 	text-align: center;
+	margin-bottom: 25px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -185,6 +176,16 @@ ul.horizontal-list li {
 	display: inline;
 }
 
+#account-help-container {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+#account-help-container span {
+	margin-right: 10px;
+}
+
 #intuit-icons {
 	display: flex;
 	align-items: center;
@@ -198,6 +199,12 @@ ul.horizontal-list li {
 
 #submit-button {
 	padding: 5px 100px;
+	margin-bottom: 25px;
+}
+
+#recaptcha-container {
+	background-color: #eceef1;
+	width: 100%;
 }
 
 #privacy-settings-container {
