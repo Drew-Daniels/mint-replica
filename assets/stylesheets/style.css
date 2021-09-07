@@ -48,13 +48,27 @@ table {
 
 /* CSS RESET */
 /* MY CSS */
-
-/* unvisited */
-
 * {
 	font-family: 'Rajdhani', sans-serif;
+	color: #7f8081;
 }
 
+body {
+	background-color: #eceef1;
+}
+
+button {
+	background-color: #0077c5;
+	border-radius: 5px;
+	border-style: solid;
+	border-color: gray;
+	border-width: 1px;
+	color: #fff;
+	text-align: top;
+	padding: 5px;
+}
+
+/* unvisited */
 a:link {
 	color: inherit;
 	text-decoration: inherit;
@@ -78,30 +92,42 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
 	text-align: center;
+	color: #56575a;
+}
+
+label {
+	color: #56575a;
+}
+
+label input {
+	color: #56575a;
+	margin: 5px 0 30px 0;
+}
+
+input {
+	display: block;
+	margin-bottom: 10px;
 }
 
 form {
 	margin: 0px auto;
 	width: 400px;
+	background-color: #ffffff;
+	padding: 25px;
+	border: 1px solid gray;
+	border-radius: 2px;
 }
 
 form span {
 	text-align: center;
 }
 
-.centered-text {
+footer span {
 	text-align: center;
 }
 
-button {
-	background-color: #0077c5;
-	border-radius: 5px;
-	border-style: solid;
-	border-color: gray;
-	border-width: 1px;
-	color: #fff;
-	text-align: top;
-	padding: 5px;
+.centered-text {
+	text-align: center;
 }
 
 .highlighted {
@@ -116,7 +142,24 @@ button {
 	display: block;
 }
 
+.table {
+	display: table;
+	margin: 0 auto;
+}
+
+ul.horizontal-list {
+	list-style: none;
+}
+
+ul.horizontal-list li {
+	display: inline;
+}
+
 #intuit-logo {
 	height: 50px;
+}
+
+#submit-button {
+	padding: 5px 100px;
 }
 
