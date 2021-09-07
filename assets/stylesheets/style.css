@@ -100,6 +100,11 @@ p {
 h1, h2, h3, h4, h5, h6 {
 	text-align: center;
 	color: #56575a;
+	margin: 10px;
+}
+
+h1 {
+	font-size: 25px;
 }
 
 label {
@@ -121,7 +126,7 @@ input {
 }
 
 form {
-	margin: 0px auto;
+	margin: 0px auto 25px auto;
 	width: 400px;
 	background-color: #ffffff;
 	padding: 25px;
@@ -129,12 +134,13 @@ form {
 	border-radius: 2px;
 }
 
-form span {
-	text-align: center;
-}
 
 footer {
 	color: #56575a;
+}
+
+form span {
+	text-align: center;
 }
 
 footer span {
@@ -209,12 +215,20 @@ ul.horizontal-list li {
 
 #privacy-settings-container {
 	background-color: #fff;
-	height: 50px;
+	height: 60px;
 	display: flex;
 	align-items: center;
 }
 
 #privacy-settings-container span {
 	margin-left: 25px;
+}
+
+#trademarks {
+	margin-bottom: 100px;
+}
+
+#sign-in-container {
+	margin-right: 25px;
 }
 
