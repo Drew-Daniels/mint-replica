@@ -3,13 +3,17 @@
     <meta charset="utf-8">
     <title>Intuit Accounts - Sign Up</title>
     <link rel="stylesheet" href="assets/stylesheets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- HEADER SECTION -->
     <header>
         <div>
             <div>
-                <span>Already have an intuit account?</span>
-                <a href=""><span>I forgot my User ID or Password</span></a>
+                <span class="newline">Already have an intuit account?</span>
+                <a href=""><span class="highlighted">I forgot my User ID or Password</span></a>
             </div>
             <div>
                 <button>
@@ -19,24 +23,31 @@
             </div>
         </div>
         <div>
-            <img src="assets/images/logos/intuit-logo.png" alt="intuit-logo">
-            <img src="assets/images/logos/mint-logo.png" alt="mint-logo">
-            <img src="assets/images/logos/quickbooks-logo.png" alt="quickbooks-logo">
-            <img src="assets/images/logos/turbotax-logo.png" alt="turbotax-logo">
+            <img src="assets/images/logos/intuit-logo.png" alt="intuit-logo" id="intuit-logo">
+            <img src="assets/images/logos/mint-logo.png" alt="mint-logo" class="logo">
+            <img src="assets/images/logos/quickbooks-logo.png" alt="quickbooks-logo" class="logo">
+            <img src="assets/images/logos/turbotax-logo.png" alt="turbotax-logo" class="logo">
         </div>
     </header>
-
+    <!-- FORM SECTION -->
+    <form action="" method="POST">
+        <h1>Create an Intuit Account</h1>
+        <span class="newline">One account for everything Intuit, including Mint.</span>
+        <div class="centered-text">
+            <a href="#"><span class="highlighted">Learn more</span></a>
+        </div>
+    </form>
+    <!-- FOOTER SECTION -->
     <footer>
         <ul>
             <li><a href="#">Legal</a></li>
             <li><a href="#">Privacy</a></li>
             <li><a href="#">Security</a></li>
         </ul>
-        <p>
-            &copy; 2021 Intuit, Inc. All rights reserved. Inuit, QuickBooks, QB, TurboTax, ProConnect, and Mint are registered trademarks of Intuit Inc.
-            <br>
-            Terms and conditions, features, support, pricing, and service options subject to change without notice.
-        </p>
+        <span>
+            <span class="newline">&copy; 2021 Intuit, Inc. All rights reserved. Inuit, QuickBooks, QB, TurboTax, ProConnect, and Mint are registered trademarks of Intuit Inc.</span>
+            <span>Terms and conditions, features, support, pricing, and service options subject to change without notice.</span>
+        </span>
         <div>
             <a>Privacy Settings</a>
         </div>

@@ -20,7 +20,6 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -51,9 +50,18 @@ table {
 /* MY CSS */
 
 /* unvisited */
+
+* {
+	font-family: 'Rajdhani', sans-serif;
+}
+
 a:link {
 	color: inherit;
 	text-decoration: inherit;
+}
+
+a:visited {
+	color: inherit;
 }
 
 a:hover {
@@ -67,3 +75,48 @@ ul {
 p {
 	text-align: center;
 }
+
+h1, h2, h3, h4, h5, h6 {
+	text-align: center;
+}
+
+form {
+	margin: 0px auto;
+	width: 400px;
+}
+
+form span {
+	text-align: center;
+}
+
+.centered-text {
+	text-align: center;
+}
+
+button {
+	background-color: #0077c5;
+	border-radius: 5px;
+	border-style: solid;
+	border-color: gray;
+	border-width: 1px;
+	color: #fff;
+	text-align: top;
+	padding: 5px;
+}
+
+.highlighted {
+	color: #3995d1;
+}
+
+.logo {
+	height: 25px;
+}
+
+.newline {
+	display: block;
+}
+
+#intuit-logo {
+	height: 50px;
+}
+
