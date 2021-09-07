@@ -50,3 +50,20 @@ table {
 /* CSS RESET */
 /* MY CSS */
 
+/* unvisited */
+a:link {
+	color: inherit;
+	text-decoration: inherit;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+ul {
+	display: inline-block;
+}
+
+p {
+	text-align: center;
+}
