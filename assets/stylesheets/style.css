@@ -122,6 +122,10 @@ form span {
 	text-align: center;
 }
 
+footer {
+	color: #56575a;
+}
+
 footer span {
 	text-align: center;
 }
@@ -153,6 +157,13 @@ ul.horizontal-list {
 
 ul.horizontal-list li {
 	display: inline;
+}
+
+#intuit-icons {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
 }
 
 #intuit-logo {
