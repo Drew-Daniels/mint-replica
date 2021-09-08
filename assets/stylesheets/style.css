@@ -180,6 +180,7 @@ ul.horizontal-list {
 
 ul.horizontal-list li {
 	display: inline;
+	margin-right: 25px;
 }
 
 #account-help-container {
