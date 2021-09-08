@@ -34,36 +34,38 @@
         </div>
     </header>
     <!-- FORM SECTION -->
-    <form action="" method="POST">
-        <h1>Create an Intuit Account</h1>
-        <span class="newline">One account for everything Intuit, including Mint.</span>
-        <div class="centered-text">
-            <a href="#"><span class="highlighted">Learn more</span></a>
-        </div>
-        <fieldset>
-            <label>
-                Email Address
-                <input type="email" required>
-            </label>
-            <label>
-                Phone (recommended)
-                <input type="tel">
-            </label>
-            <label>
-                Password
-                <input type="password" required>
-            </label>
-            <div class="center-items">
-                <button id="submit-button" type="submit">
-                    <img src="assets/images/icons/login-icon.svg" alt="">
-                    <span>Create Account</span>
-                </button>
+    <div id="form-container">
+        <form action="" method="POST">
+            <h1>Create an Intuit Account</h1>
+            <span class="newline">One account for everything Intuit, including Mint.</span>
+            <div class="centered-text">
+                <a href="#"><span class="highlighted">Learn more</span></a>
             </div>
-            <p id="terms-and-conditions">
-                By selecting Create Account, you agree to our <a href="#"><span class="highlighted">Terms</span></a> and have read and acknowledge our 
-                <a href="#"><span class="highlighted">Global Privacy Statement</span></a>.
-            </p>
-        </fieldset>
+            <fieldset>
+                <label>
+                    Email Address
+                    <input type="email" required>
+                </label>
+                <label>
+                    Phone (recommended)
+                    <input type="tel">
+                </label>
+                <label>
+                    Password
+                    <input type="password" required>
+                </label>
+                <div class="center-items">
+                    <button id="submit-button" type="submit">
+                        <img src="assets/images/icons/login-icon.svg" alt="">
+                        <span>Create Account</span>
+                    </button>
+                </div>
+                <p id="terms-and-conditions">
+                    By selecting Create Account, you agree to our <a href="#"><span class="highlighted">Terms</span></a> and have read and acknowledge our 
+                    <a href="#"><span class="highlighted">Global Privacy Statement</span></a>.
+                </p>
+            </fieldset>
+        </form>
         <div id=recaptcha-container>
             <span>Invisible reCAPTCHA by Google 
                 <a href="#"><span class="highlighted">Privacy Policy</span></a>
@@ -71,7 +73,8 @@
                 <a href="#"><span class="highlighted">Terms of Use</span>.</a>
             </span>
         </div>
-    </form>
+    </div>
+
     <!-- FOOTER SECTION -->
     <footer>
         <div class="table">

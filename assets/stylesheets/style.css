@@ -57,6 +57,10 @@ body {
 	background-color: #eceef1;
 }
 
+fieldset {
+	margin-top: 25px;
+}
+
 button {
 	background-color: #0077c5;
 	border-radius: 5px;
@@ -126,12 +130,13 @@ input {
 }
 
 form {
-	margin: 0px auto 25px auto;
+	margin: 0px auto;
 	width: 400px;
 	background-color: #ffffff;
 	padding: 25px;
 	border: 1px solid gray;
-	border-radius: 2px;
+	border-bottom: none;
+	border-radius: 2px 2px 0 0;
 }
 
 
@@ -174,6 +179,10 @@ footer span {
 	margin: 0 auto;
 }
 
+ul {
+	margin-bottom: 10px;
+}
+
 ul.horizontal-list {
 	list-style: none;
 }
@@ -181,6 +190,14 @@ ul.horizontal-list {
 ul.horizontal-list li {
 	display: inline;
 	margin-right: 25px;
+}
+
+#form-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
 }
 
 #account-help-container {
@@ -210,8 +227,15 @@ ul.horizontal-list li {
 }
 
 #recaptcha-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	background-color: #eceef1;
-	width: 100%;
+	border: 1px solid gray;
+	border-top: none;
+	height: 50px;
+	padding: 22.5px;
+	margin-bottom: 25px;
 }
 
 #privacy-settings-container {
